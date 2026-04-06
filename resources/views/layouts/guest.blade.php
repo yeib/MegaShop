@@ -11,13 +11,13 @@
         <meta name="description" content="Mega Shop | Teal Edition: Descubre el equilibrio perfecto entre diseño y utilidad.">
         <meta property="og:title" content="Mega Shop | Teal Edition">
         <meta property="og:description" content="Descubre el equilibrio perfecto entre diseño y utilidad en Mega Shop.">
-        <meta property="og:image" content="{{ asset('preview.png') }}">
+        <meta property="og:image" content="{{ asset('logo.png') }}">
         <meta property="og:url" content="{{ url()->current() }}">
         <meta property="og:type" content="website">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Mega Shop | Teal Edition">
         <meta name="twitter:description" content="Descubre el equilibrio perfecto entre diseño y utilidad en Mega Shop.">
-        <meta name="twitter:image" content="{{ asset('preview.png') }}">
+        <meta name="twitter:image" content="{{ asset('logo.png') }}">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,7 +73,9 @@
         <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 relative z-10 px-4">
             <div class="mb-10 scale-110 sm:scale-125">
                 <a href="/">
-                    <x-application-logo />
+                    <div class="bg-brand-500 text-white w-16 h-16 flex items-center justify-center rounded-2xl shadow-xl shadow-brand-500/40 overflow-hidden">
+                        <img src="{{ asset('logo.png') }}" alt="Logo" class="w-full h-full object-cover">
+                    </div>
                 </a>
             </div>
 

@@ -9,13 +9,13 @@
     <meta name="description" content="Mega Shop | Teal Edition: Descubre el equilibrio perfecto entre diseño y utilidad.">
     <meta property="og:title" content="Mega Shop | Teal Edition">
     <meta property="og:description" content="Descubre el equilibrio perfecto entre diseño y utilidad en Mega Shop.">
-    <meta property="og:image" content="{{ asset('preview.png') }}">
+    <meta property="og:image" content="{{ asset('logo.png') }}">
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mega Shop | Teal Edition">
     <meta name="twitter:description" content="Descubre el equilibrio perfecto entre diseño y utilidad en Mega Shop.">
-    <meta name="twitter:image" content="{{ asset('preview.png') }}">
+    <meta name="twitter:image" content="{{ asset('logo.png') }}">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -88,8 +88,8 @@
                     <!-- LOGO -->
                     <div class="flex items-center shrink-0">
                         <a href="{{ route('home') }}" class="text-lg sm:text-2xl font-extrabold tracking-tighter flex items-center gap-2 sm:gap-3 hover:scale-105 transition-transform shrink-0">
-                            <div class="bg-brand-500 text-white w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center rounded-xl sm:rounded-2xl shadow-xl shadow-brand-500/40">
-                                <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+                            <div class="bg-brand-500 text-white w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center rounded-xl sm:rounded-2xl shadow-xl shadow-brand-500/40 overflow-hidden">
+                                <img src="{{ asset('logo.png') }}" alt="Logo" class="w-full h-full object-cover">
                             </div>
                             <span class="text-gradient italic inline-block whitespace-nowrap">Mega Shop</span>
                         </a>

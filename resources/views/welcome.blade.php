@@ -11,6 +11,9 @@
         <meta property="og:title" content="Mega Shop | Teal Edition">
         <meta property="og:description" content="Descubre el equilibrio perfecto entre diseño y utilidad en Mega Shop.">
         <meta property="og:image" content="{{ Request::root() . '/logo.png' }}">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="1200">
         <meta property="og:url" content="{{ url()->current() }}">
         <meta property="og:type" content="website">
         <meta name="twitter:card" content="summary_large_image">

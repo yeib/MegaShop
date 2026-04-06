@@ -87,11 +87,8 @@
                 <div class="flex justify-between h-16 sm:h-20 items-center">
                     <!-- LOGO -->
                     <div class="flex items-center shrink-0">
-                        <a href="{{ route('home') }}" class="text-lg sm:text-2xl font-extrabold tracking-tighter flex items-center gap-2 sm:gap-3 hover:scale-105 transition-transform shrink-0">
-                            <div class="bg-brand-500 text-white w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center rounded-xl sm:rounded-2xl shadow-xl shadow-brand-500/40 overflow-hidden">
-                                <img src="{{ asset('logo.png') }}" alt="Logo" class="w-full h-full object-cover">
-                            </div>
-                            <span class="text-gradient italic inline-block whitespace-nowrap">Mega Shop</span>
+                        <a href="{{ route('home') }}" class="hover:scale-105 transition-transform shrink-0">
+                            <img src="{{ asset('logo.png') }}" alt="Mega Shop" class="h-10 sm:h-12 w-auto object-contain">
                         </a>
                     </div>
 

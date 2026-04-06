@@ -71,11 +71,9 @@
         <div class="fixed bottom-0 -right-20 w-96 h-96 bg-brand-100 rounded-full mix-blend-multiply filter blur-[100px] opacity-10 animate-blob animation-delay-2000 pointer-events-none hidden md:block"></div>
 
         <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 relative z-10 px-4">
-            <div class="mb-10 scale-110 sm:scale-125">
+            <div class="mb-10">
                 <a href="/">
-                    <div class="bg-brand-500 text-white w-16 h-16 flex items-center justify-center rounded-2xl shadow-xl shadow-brand-500/40 overflow-hidden">
-                        <img src="{{ asset('logo.png') }}" alt="Logo" class="w-full h-full object-cover">
-                    </div>
+                    <img src="{{ asset('logo.png') }}" alt="Mega Shop" class="h-16 sm:h-20 w-auto object-contain">
                 </a>
             </div>
 
